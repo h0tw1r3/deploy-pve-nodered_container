@@ -1,0 +1,5 @@
+---
+name: nodered_container
+modules:
+- puppet/unattended_upgrades
+- puppet/nodejs
