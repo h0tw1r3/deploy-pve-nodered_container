@@ -230,6 +230,7 @@ plan nodered_container::deploy (
     }
     ~> service { 'node-red':
       ensure  => running,
+      enable  => true,
       require => File['node-red.service'],
     }
   }
